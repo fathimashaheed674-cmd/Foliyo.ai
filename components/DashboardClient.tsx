@@ -4,20 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import {
-  FileText,
-  PenLine,
-  FolderGit2,
-  Target,
-  Eye,
-  Folder,
-  TrendingUp,
-  LogOut,
-  Settings,
-  Home,
-  Palette,
-  Wrench,
-} from 'lucide-react';
+import { FileText, PenLine, FolderGit2, Target, Eye, Folder, TrendingUp, LogOut, Settings, Hop as Home, Palette, Wrench } from 'lucide-react';
 import { createClient } from '@/lib/supabase/client';
 import type { Portfolio, AIGeneration } from '@/lib/types';
 
